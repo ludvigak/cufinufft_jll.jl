@@ -1,0 +1,11 @@
+[[cufinufft]]
+arch = "x86_64"
+cuda = "12.5"
+git-tree-sha1 = "9bfad7642da1c980868c431250cf53231ebc58ee"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[cufinufft.download]]
+    sha256 = "c6bc595dd2cc3902710ae46020788eedcacb0a9b86b60f949ac11e515e365ea0"
+    url = "https://github.com/ludvigak/cufinufft_jll.jl/releases/download/cufinufft-v2.2.0+0/cufinufft.v2.2.0.x86_64-linux-gnu-cuda+12.5.tar.gz"
